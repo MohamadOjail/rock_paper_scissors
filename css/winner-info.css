@@ -1,0 +1,16 @@
+.winner-info {
+  width: 12em;
+  display: flexbox;
+  flex-direction: column;
+  text-align: center;
+}
+.winner-info > * {
+  padding: 0.25em 0em 0.1em;
+}
+.winner-title {
+  background: var(--Clr-600);
+}
+.winner {
+  color: var(--Clr-600);
+  background: var(--Clr-100);
+}

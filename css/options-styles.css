@@ -1,0 +1,42 @@
+.choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background: var(--Clr-400);
+  border-radius: 4px;
+}
+.choose h5 {
+  margin-top: 0.75em;
+}
+.choose a {
+  text-decoration: none;
+  font-size: 0.5em;
+  color: var(--Clr-100);
+  margin-bottom: 1em;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  width: 5em;
+  margin: 0.5em;
+  border-radius: 4px;
+  background: var(--Clr-600);
+  color: var(--Clr-100);
+  font-weight: bold;
+  padding: 0.25em;
+  border: none;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background: var(--Clr-100);
+  outline: 2px solid var(--Clr-600);
+  color: var(--Clr-600);
+}
